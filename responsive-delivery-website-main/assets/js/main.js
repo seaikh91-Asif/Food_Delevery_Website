@@ -35,7 +35,21 @@ const shadowHeader = () => {
 window.addEventListener('scroll', shadowHeader)
 
 /*=============== SWIPER REVIEWS ===============*/
+const swiperReviews = new Swiper('.reviews__swiper', {
+  loop: true,
+  spaceBetween: 16,
+  grabcursor: true,
+  speed: 600,
 
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  autoplay:{
+    delay: 2000,
+    disableOnInteraction: false,
+  }
+})
 
 /*=============== SHOW SCROLL UP ===============*/ 
 
