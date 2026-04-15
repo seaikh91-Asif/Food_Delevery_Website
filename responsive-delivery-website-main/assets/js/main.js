@@ -128,3 +128,30 @@ themeButton.addEventListener('click', () => {
   localStorage.setItem('selected-icon', getCurrentIcon())
 })
 /*=============== SCROLL REVEAL ANIMATION ===============*/
+const sr = ScrollReveal({
+  origin: 'top', 
+  distance: '60px', // Added the missing comma here
+  duration: 2000,
+  // reset: true, // animation repeat (Fixed a minor typo here)
+});
+
+sr.reveal(`.home__title, .home__description, .home__data, button`, {interval: 100});
+sr.reveal(`.home__image`, {delay: 900}); // Added '.' to home__image
+sr.reveal(`.home__phone`, {origin: 'left', delay: 1500}); // Added '.' to home__phone
+sr.reveal(`.home__comment`, {origin: 'right', delay: 1800}); // Added '.' to home__comment
+sr.reveal(`.home__social`, {origin: 'bottom', delay: 2100}); // Added '.' to home__social
+
+sr.reveal(`.service__card, .service__title, .service__description`, {interval: 100}); // Added '.' to service__card
+
+sr.reveal(`.menu__card`, {interval: 100});
+
+sr.reveal(`.reviews__content`, {origin: 'right'});
+sr.reveal(`.reviews__image`, {origin: 'left', delay: 600}); // Added '.' to reviews__image
+
+sr.reveal(`.app .section__subtitle, .app .section__title, .app__description, .app .button`, {interval: 100});
+sr.reveal(`.app__image`, {origin: 'bottom', delay: 900});
+
+sr.reveal(`.map__area`, {origin: 'right'}); // Added '.' to map__area
+sr.reveal(`.map__card`, {origin: 'left', delay: 600}); // Added '.' to map__card
+
+sr.reveal(`.footer__data, .footer__content div`, {interval: 100});
