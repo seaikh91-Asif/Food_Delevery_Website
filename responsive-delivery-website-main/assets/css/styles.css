@@ -432,6 +432,8 @@ img {
   position: absolute;
   right: 1rem;
   bottom: 0;
+  right: 1.7rem;
+  
 }
 
 .home__comment::before,
