@@ -155,4 +155,6 @@ sr.reveal(`.map__card`, {origin: 'left', delay: 600});
 
 sr.reveal(`.footer__data, .footer__content div`, {interval: 100});
 
+sr.reveal(`.footer__copy`, {origin: 'bottom', delay: 800});
+
 
