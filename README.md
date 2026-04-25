@@ -1,4 +1,4 @@
-<img width="1280" height="720" alt="preview" src="https://github.com/user-attachments/assets/ba044472-3f6d-40f6-ae65-a295e700f39e" />
+
 # Responsive Delivery Website 🍔🛵
 
 A beautiful, fully responsive delivery website developed using the Mobile First methodology. It features a modern user interface, smooth navigation, and dynamic themes to enhance the user experience across all devices.
@@ -25,6 +25,8 @@ To get a local copy up and running, follow these simple steps:
 ### Prerequisites
 
 You don't need any complex development environment to run this project—just a modern web browser.
+
+<img width="1280" height="720" alt="preview" src="https://github.com/user-attachments/assets/ba044472-3f6d-40f6-ae65-a295e700f39e" />
 
 ### Installation
 
