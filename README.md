@@ -18,9 +18,6 @@ A beautiful, fully responsive delivery website developed using the Mobile First 
 * **CSS3** (Custom properties, Flexbox, layout strategies)
 * **JavaScript** (Vanilla JS for animations, theme switching, and map logic)
 
-## 🚀 Getting Started
-
-To get a local copy up and running, follow these simple steps:
 
 ### Prerequisites
 
@@ -28,8 +25,4 @@ You don't need any complex development environment to run this project—just a 
 
 <img width="1280" height="720" alt="preview" src="https://github.com/user-attachments/assets/ba044472-3f6d-40f6-ae65-a295e700f39e" />
 
-### Installation
 
-1. Clone the repository:
-   ```sh
-   git clone [https://github.com/seaikh91-Asif/Food_Delevery_Website.git](https://github.com/Seaikh91-Asif/Food_Delevery_Website.git)
